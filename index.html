@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <!-- force rebuild -->
+    <meta charset="UTF-8">
     <title>RegionalCouriers</title>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
 </head>
@@ -24,7 +26,7 @@
             <h1>Track Your Shipment</h1>
             <p>Enter your tracking number below to get real-time updates on your package.</p>
             <div class="tracking-form">
-                <form action="/regionalcouriers/php/redirect.php" method="post">
+                <form action="/regionalcouriers/redirect.html" method="post">
                     <input type="text" name="trackingNumber" placeholder="Enter Tracking Number" required>
                     <button type="submit">Track</button>
                 </form>
@@ -67,5 +69,6 @@
     -->
 
 </body>
+
 
 </html>
