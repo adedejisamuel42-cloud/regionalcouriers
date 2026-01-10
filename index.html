@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>RegionalCouriers</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+
+<body>
+    <header class="fx-header">
+        <div class="fx-container fx-header__inner">
+            <div class="fx-logo" aria-label="FedEx">
+                <span class="fx-logo__fed">Regional</span><span class="fx-logo__ex">Couriers</span>
+            </div>
+            <nav class="fx-nav">
+                <a href="#" class="fx-nav__link">Ship</a>
+                <a href="#" class="fx-nav__link">Track</a>
+                <a href="#" class="fx-nav__link">Manage</a>
+                <a href="#" class="fx-nav__cta">Sign in</a>
+            </nav>
+        </div>
+    </header>
+        <section class="hero">
+            <h1>Track Your Shipment</h1>
+            <p>Enter your tracking number below to get real-time updates on your package.</p>
+            <div class="tracking-form">
+                <form action="/regionalcouriers/php/redirect.html" method="post">
+                    <input type="text" name="trackingNumber" placeholder="Enter Tracking Number" required>
+                    <button type="submit">Track</button>
+                </form>
+            </div>
+        </section>
+
+        <section style="padding: 40px; text-align: center;">
+            <h2>Why Choose SwiftCourier?</h2>
+            <p>Fast, reliable, and secure delivery services across the globe.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 SwiftCourier. All rights reserved.</p>
+        </footer>
+
+        <!--
+    <section class="hero">
+        <h1>Track Your Shipment</h1>
+        <p>Enter your tracking number below to get real-time updates on your package.</p>
+        <div class="tracking-form">
+            <form id="trackingForm">
+                <input type="text" id="trackingNumber" placeholder="Enter Tracking Number" required>
+                <button type="submit">Track</button>
+            </form>
+        </div>
+    </section>
+
+     Mock Tracking Result 
+        <div class="tracking-result" id="trackingResult">
+            <h2>Shipment Status</h2>
+            <p><strong>Tracking Number:</strong> <span id="resultNumber"></span></p>
+            <p><strong>Status:</strong> In Transit</p>
+            <p><strong>Last Location:</strong> Lagos Distribution Center</p>
+            <p><strong>Estimated Delivery:</strong> January 8, 2026</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 SwiftCourier. All rights reserved.</p>
+        </footer>
+    -->
+
+</body>
+
+</html>
